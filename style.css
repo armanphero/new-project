@@ -301,6 +301,10 @@ footer ul li a {
     .news-text p {
         font-size: 14px;
     }
+    .news-form input, .news-form button {
+        width: 42%;
+        margin: 0 1%;
+    }
 
     .recent {
         grid-template-columns: 1fr;
