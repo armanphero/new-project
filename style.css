@@ -80,7 +80,7 @@ ul.menu li a i {
     background: #fff;
     padding: 10px;
     margin: 0;
-    width: fit-content;
+    display: inline-block;
 }
 .slider-text p {
     color: #fff;
@@ -265,6 +265,9 @@ footer ul li a {
     header nav {
         width: 100%;
     }
+    ul.menu li a {
+        font-size: 14px;
+    }
     ul.menu li a i {
         display: none;
     }
@@ -274,8 +277,8 @@ footer ul li a {
     }
     .slider-text h3 {
         background-color: rgba(255, 255, 255,.8);
-        width: inherit;
         font-size: 16px;
+        display: block;
     }
     .slider-text p {
         font-size: 15px;
@@ -309,6 +312,13 @@ footer ul li a {
         margin: 0 auto;
     }
     
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer ul li a {
+        margin-right: 0px;
+    }
 
 }
 
